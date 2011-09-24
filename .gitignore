@@ -1,14 +1,16 @@
-bin/
-data/
-db/
-dist/
-logs/
-test-result/
-lib/
-tmp/
-modules/
-/eclipse
-/.settings
-.project
-.classpath
-.DS_Store
+# Extracted from https://github.com/ulrich/macaron-factory/blob/master/.gitignore
+# Ignore all dotfiles...
+.*
+# except for .gitignore
+!.gitignore
+
+# Ignore Play! working directory #
+db
+eclipse
+log
+logs
+precompiled
+tmp
+test-result
+eclipse
+server.pid

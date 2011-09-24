@@ -1,0 +1,40 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: rgb(249,198,103);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(249,198,103,1) 0%, rgba(247,150,33,1) 100%) fixed;
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,198,103,1)), color-stop(100%,rgba(247,150,33,1))) fixed;
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(249,198,103,1) 0%,rgba(247,150,33,1) 100%) fixed;
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(249,198,103,1) 0%,rgba(247,150,33,1) 100%) fixed;
+	/* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(249,198,103,1) 0%,rgba(247,150,33,1) 100%) fixed;
+	/* IE10+ */
+	filter: progid
+	:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 ) fixed;
+	/* IE6-9 */
+	background: linear-gradient(top, rgba(249,198,103,1) 0%,rgba(247,150,33,1) 100%) fixed;
+	/* W3C */
+}
+.wrapper {
+	float: left;
+	width: 67%;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.english {
+	width: 50%;
+}
+.arabic {
+	direction: rtl;
+	width: 33%;
+}
